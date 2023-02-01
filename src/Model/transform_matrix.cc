@@ -2,7 +2,7 @@
 
 #include <cmath>
 
-namespace s21 {
+namespace sfleta {
 Matrix4D::Matrix4D(double scale, double y)
     : normal_scale_{scale}, normal_y_{y} {
   SetToIdentity(&rotate_x_);
@@ -64,4 +64,4 @@ Matrix4D::matrix4d&& Matrix4D::GetTransformMatrix() {
   transform_ = matrix4d{rotate_x_ * rotate_y_ * rotate_z_ * move_};
   return std::move(transform_);
 }
-}  // namespace s21
+}  // namespace sfleta

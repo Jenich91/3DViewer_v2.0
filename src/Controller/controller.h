@@ -2,13 +2,13 @@
 #define SRC_CONTROLLER_H_
 #include "../Model/object.h"
 
-namespace s21 {
+namespace sfleta {
 class Controller {
  private:
-  s21::Object *object_;
+  sfleta::Object *object_;
 
  public:
-  explicit Controller(s21::Object *obj) : object_{obj} {}
+  explicit Controller(sfleta::Object *obj) : object_{obj} {}
 
   Controller &operator=(const Controller &other) = delete;
   Controller &operator=(Controller &&other) = delete;
@@ -26,6 +26,6 @@ class Controller {
   void Rotation(double value, int asix) { object_->Rotation(value, asix); }
   void Move(double value, int asix) { object_->Move(value, asix); }
 };
-}  // namespace s21
+}  // namespace sfleta
 
 #endif  // SRC_CONTROLLER_H_

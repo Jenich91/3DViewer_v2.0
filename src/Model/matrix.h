@@ -2,7 +2,7 @@
 #define SRC_MATRIX_OOP_H_
 #include <vector>
 
-namespace s21 {
+namespace sfleta {
 class Matrix {
  private:
   std::vector<std::vector<double>> mat;
@@ -30,6 +30,6 @@ class Matrix {
   void set_cols(unsigned new_value);
   void resize(unsigned new_rows, unsigned new_cols);
 };
-}  // namespace s21
+}  // namespace sfleta
 
 #endif  // SRC_MATRIX_OOP_H_

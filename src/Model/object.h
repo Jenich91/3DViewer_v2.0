@@ -15,7 +15,7 @@
 #include "matrix.h"
 #include "transform_matrix.h"
 
-namespace s21 {
+namespace sfleta {
 class Matrix3D : protected Matrix {
  private:
   Matrix* vertices_;
@@ -111,5 +111,5 @@ class Object {
 
   void Parsing(std::string);
 };
-}  // namespace s21
+}  // namespace sfleta
 #endif  // SRC_MODEL_H_

@@ -1,6 +1,6 @@
 #include "matrix.h"
 
-namespace s21 {
+namespace sfleta {
 // Default Constructor
 Matrix::Matrix() {
   rows = 0;
@@ -39,4 +39,4 @@ void Matrix::resize(unsigned new_rows, unsigned new_cols) {
   cols = new_cols;
 }
 
-}  // namespace s21
+}  // namespace sfleta

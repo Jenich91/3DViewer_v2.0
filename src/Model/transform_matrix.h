@@ -5,7 +5,7 @@
 
 #include "constant.h"
 
-namespace s21 {
+namespace sfleta {
 class Matrix4D {
  public:
   using matrix4d = std::vector<std::vector<double>>;
@@ -39,6 +39,6 @@ class Matrix4D {
   void Move(double, int);
 };
 
-}  // namespace s21
+}  // namespace sfleta
 
 #endif  // SRC_MVP_MATRIX_H_

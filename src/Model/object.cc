@@ -1,6 +1,6 @@
 #include "object.h"
 
-namespace s21 {
+namespace sfleta {
 void Object::Parsing(std::string filename) {
   InitObjects(filename.data());
   FillObjects(filename.data());
@@ -106,4 +106,4 @@ double Object::MaxNumber(double num1, double num2) {
   return (num1 >= num2) ? num1 : num2;
 }
 
-}  // namespace s21
+}  // namespace sfleta
