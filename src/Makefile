@@ -14,7 +14,7 @@ TEST_SRCS = tests.cc
 MODEL_SRCS = Model/object.cc Model/matrix.cc Model/transform_matrix.cc
 ALL_SRCS_FILES = find . -type f -name "*.cc" -name "*.cpp" -o -name "*.h"| grep -v "QtGifImage"
 VERSION = v2_0
-SCHOOL_PREFIX = sfleta_
+SCHOOL_PREFIX = s21_
 FILENAME = "$(PROJECT_NAME)_$(VERSION)"
 OS := $(shell uname)
 
